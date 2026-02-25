@@ -1,8 +1,8 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "C:\\Users\\archi\\Desktop\\carbonx-project\\blockchain\\contracts\\CarbonCredit.sol": {
-      "lastModificationDate": 1765654705386,
+    "C:\\Users\\vikas\\OneDrive\\Desktop\\Projects\\carbonx-tokenized-carbon-credits\\blockchain\\contracts\\CarbonCredit.sol": {
+      "lastModificationDate": 1771664409883,
       "contentHash": "501c8a27deabd60c668354eade242b39",
       "sourceName": "contracts/CarbonCredit.sol",
       "solcConfig": {
@@ -43,44 +43,8 @@
         "CarbonCredit"
       ]
     },
-    "C:\\Users\\archi\\Desktop\\carbonx-project\\blockchain\\contracts\\interfaces\\ICarbonCredit.sol": {
-      "lastModificationDate": 1765633122854,
-      "contentHash": "a931488680ed8444ff6ff7fe03e3f7fa",
-      "sourceName": "contracts/interfaces/ICarbonCredit.sol",
-      "solcConfig": {
-        "version": "0.8.20",
-        "settings": {
-          "evmVersion": "paris",
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.20"
-      ],
-      "artifacts": [
-        "ICarbonCredit"
-      ]
-    },
-    "C:\\Users\\archi\\Desktop\\carbonx-project\\blockchain\\contracts\\libraries\\CarbonStructs.sol": {
-      "lastModificationDate": 1765632753551,
+    "C:\\Users\\vikas\\OneDrive\\Desktop\\Projects\\carbonx-tokenized-carbon-credits\\blockchain\\contracts\\libraries\\CarbonStructs.sol": {
+      "lastModificationDate": 1771664409883,
       "contentHash": "3064238090d89ddd0b0724e43428b01c",
       "sourceName": "contracts/libraries/CarbonStructs.sol",
       "solcConfig": {
@@ -115,8 +79,44 @@
         "CarbonStructs"
       ]
     },
-    "C:\\Users\\archi\\Desktop\\carbonx-project\\blockchain\\contracts\\roles\\CarbonRoles.sol": {
-      "lastModificationDate": 1765654279845,
+    "C:\\Users\\vikas\\OneDrive\\Desktop\\Projects\\carbonx-tokenized-carbon-credits\\blockchain\\contracts\\interfaces\\ICarbonCredit.sol": {
+      "lastModificationDate": 1771664409883,
+      "contentHash": "a931488680ed8444ff6ff7fe03e3f7fa",
+      "sourceName": "contracts/interfaces/ICarbonCredit.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "ICarbonCredit"
+      ]
+    },
+    "C:\\Users\\vikas\\OneDrive\\Desktop\\Projects\\carbonx-tokenized-carbon-credits\\blockchain\\contracts\\roles\\CarbonRoles.sol": {
+      "lastModificationDate": 1771664409883,
       "contentHash": "d5cf65a3f907929a9b460debb558df7a",
       "sourceName": "contracts/roles/CarbonRoles.sol",
       "solcConfig": {
@@ -153,9 +153,9 @@
         "CarbonRoles"
       ]
     },
-    "C:\\Users\\archi\\Desktop\\carbonx-project\\blockchain\\node_modules\\@openzeppelin\\contracts\\token\\ERC1155\\ERC1155.sol": {
-      "lastModificationDate": 1765628992085,
-      "contentHash": "d2944812f454a6629f41f28d4f1d07b2",
+    "C:\\Users\\vikas\\OneDrive\\Desktop\\Projects\\carbonx-tokenized-carbon-credits\\blockchain\\node_modules\\@openzeppelin\\contracts\\token\\ERC1155\\ERC1155.sol": {
+      "lastModificationDate": 1771664421165,
+      "contentHash": "0284deec762a1f8322754ffde8814ba0",
       "sourceName": "@openzeppelin/contracts/token/ERC1155/ERC1155.sol",
       "solcConfig": {
         "version": "0.8.20",
@@ -197,9 +197,9 @@
         "ERC1155"
       ]
     },
-    "C:\\Users\\archi\\Desktop\\carbonx-project\\blockchain\\node_modules\\@openzeppelin\\contracts\\utils\\Strings.sol": {
-      "lastModificationDate": 1765628992699,
-      "contentHash": "d8f70caf0e0c77dc908176ed44812fb7",
+    "C:\\Users\\vikas\\OneDrive\\Desktop\\Projects\\carbonx-tokenized-carbon-credits\\blockchain\\node_modules\\@openzeppelin\\contracts\\utils\\Strings.sol": {
+      "lastModificationDate": 1771664421232,
+      "contentHash": "d7f92e06ea1a044919c407e262f80e1d",
       "sourceName": "@openzeppelin/contracts/utils/Strings.sol",
       "solcConfig": {
         "version": "0.8.20",
@@ -237,9 +237,9 @@
         "Strings"
       ]
     },
-    "C:\\Users\\archi\\Desktop\\carbonx-project\\blockchain\\node_modules\\@openzeppelin\\contracts\\access\\Ownable.sol": {
-      "lastModificationDate": 1765628992632,
-      "contentHash": "d3c790edc9ccf808a17c5a6cd13614fd",
+    "C:\\Users\\vikas\\OneDrive\\Desktop\\Projects\\carbonx-tokenized-carbon-credits\\blockchain\\node_modules\\@openzeppelin\\contracts\\access\\Ownable.sol": {
+      "lastModificationDate": 1771664420873,
+      "contentHash": "f665fc4a91af3170f86727fc49cc091f",
       "sourceName": "@openzeppelin/contracts/access/Ownable.sol",
       "solcConfig": {
         "version": "0.8.20",
@@ -275,9 +275,9 @@
         "Ownable"
       ]
     },
-    "C:\\Users\\archi\\Desktop\\carbonx-project\\blockchain\\node_modules\\@openzeppelin\\contracts\\utils\\Context.sol": {
-      "lastModificationDate": 1765628991974,
-      "contentHash": "67bfbc07588eb8683b3fd8f6f909563e",
+    "C:\\Users\\vikas\\OneDrive\\Desktop\\Projects\\carbonx-tokenized-carbon-credits\\blockchain\\node_modules\\@openzeppelin\\contracts\\utils\\Context.sol": {
+      "lastModificationDate": 1771664421216,
+      "contentHash": "2783b901218e982baedae531a748ed8d",
       "sourceName": "@openzeppelin/contracts/utils/Context.sol",
       "solcConfig": {
         "version": "0.8.20",
@@ -311,9 +311,9 @@
         "Context"
       ]
     },
-    "C:\\Users\\archi\\Desktop\\carbonx-project\\blockchain\\node_modules\\@openzeppelin\\contracts\\interfaces\\draft-IERC6093.sol": {
-      "lastModificationDate": 1765628992048,
-      "contentHash": "5041977bbe908de2e6ed0270447f79ad",
+    "C:\\Users\\vikas\\OneDrive\\Desktop\\Projects\\carbonx-tokenized-carbon-credits\\blockchain\\node_modules\\@openzeppelin\\contracts\\interfaces\\draft-IERC6093.sol": {
+      "lastModificationDate": 1771664421148,
+      "contentHash": "74f382a9e878a0ef61ce9973df2e1c7d",
       "sourceName": "@openzeppelin/contracts/interfaces/draft-IERC6093.sol",
       "solcConfig": {
         "version": "0.8.20",
@@ -349,47 +349,9 @@
         "IERC721Errors"
       ]
     },
-    "C:\\Users\\archi\\Desktop\\carbonx-project\\blockchain\\node_modules\\@openzeppelin\\contracts\\utils\\introspection\\ERC165.sol": {
-      "lastModificationDate": 1765628992146,
-      "contentHash": "0906d06dca25210d4696dcef6dad2909",
-      "sourceName": "@openzeppelin/contracts/utils/introspection/ERC165.sol",
-      "solcConfig": {
-        "version": "0.8.20",
-        "settings": {
-          "evmVersion": "paris",
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "./IERC165.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.20"
-      ],
-      "artifacts": [
-        "ERC165"
-      ]
-    },
-    "C:\\Users\\archi\\Desktop\\carbonx-project\\blockchain\\node_modules\\@openzeppelin\\contracts\\utils\\Arrays.sol": {
-      "lastModificationDate": 1765628991924,
-      "contentHash": "e19f50397668e814730982e8f2aa6e56",
+    "C:\\Users\\vikas\\OneDrive\\Desktop\\Projects\\carbonx-tokenized-carbon-credits\\blockchain\\node_modules\\@openzeppelin\\contracts\\utils\\Arrays.sol": {
+      "lastModificationDate": 1771664421216,
+      "contentHash": "24e704e48a5e261efcbaa9a7679bea41",
       "sourceName": "@openzeppelin/contracts/utils/Arrays.sol",
       "solcConfig": {
         "version": "0.8.20",
@@ -428,10 +390,10 @@
         "Arrays"
       ]
     },
-    "C:\\Users\\archi\\Desktop\\carbonx-project\\blockchain\\node_modules\\@openzeppelin\\contracts\\token\\ERC1155\\extensions\\IERC1155MetadataURI.sol": {
-      "lastModificationDate": 1765628992440,
-      "contentHash": "954b62833ba591c2f2ad3354a5048f2a",
-      "sourceName": "@openzeppelin/contracts/token/ERC1155/extensions/IERC1155MetadataURI.sol",
+    "C:\\Users\\vikas\\OneDrive\\Desktop\\Projects\\carbonx-tokenized-carbon-credits\\blockchain\\node_modules\\@openzeppelin\\contracts\\utils\\introspection\\ERC165.sol": {
+      "lastModificationDate": 1771664421249,
+      "contentHash": "150f1488899c7faea5e9e6fe08113c8b",
+      "sourceName": "@openzeppelin/contracts/utils/introspection/ERC165.sol",
       "solcConfig": {
         "version": "0.8.20",
         "settings": {
@@ -457,18 +419,18 @@
         }
       },
       "imports": [
-        "../IERC1155.sol"
+        "./IERC165.sol"
       ],
       "versionPragmas": [
-        ">=0.6.2"
+        "^0.8.20"
       ],
       "artifacts": [
-        "IERC1155MetadataURI"
+        "ERC165"
       ]
     },
-    "C:\\Users\\archi\\Desktop\\carbonx-project\\blockchain\\node_modules\\@openzeppelin\\contracts\\token\\ERC1155\\IERC1155.sol": {
-      "lastModificationDate": 1765628992436,
-      "contentHash": "33e0e83862852391c28e4dd1b8bd9cf2",
+    "C:\\Users\\vikas\\OneDrive\\Desktop\\Projects\\carbonx-tokenized-carbon-credits\\blockchain\\node_modules\\@openzeppelin\\contracts\\token\\ERC1155\\IERC1155.sol": {
+      "lastModificationDate": 1771664421165,
+      "contentHash": "c25765c68d1f1628663c8f2a090632a2",
       "sourceName": "@openzeppelin/contracts/token/ERC1155/IERC1155.sol",
       "solcConfig": {
         "version": "0.8.20",
@@ -504,9 +466,47 @@
         "IERC1155"
       ]
     },
-    "C:\\Users\\archi\\Desktop\\carbonx-project\\blockchain\\node_modules\\@openzeppelin\\contracts\\token\\ERC1155\\utils\\ERC1155Utils.sol": {
-      "lastModificationDate": 1765628992134,
-      "contentHash": "c514e711ead283a7c38933fd7be8aad0",
+    "C:\\Users\\vikas\\OneDrive\\Desktop\\Projects\\carbonx-tokenized-carbon-credits\\blockchain\\node_modules\\@openzeppelin\\contracts\\token\\ERC1155\\extensions\\IERC1155MetadataURI.sol": {
+      "lastModificationDate": 1771664421165,
+      "contentHash": "36f1f1952427fab2040a0b246b434043",
+      "sourceName": "@openzeppelin/contracts/token/ERC1155/extensions/IERC1155MetadataURI.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../IERC1155.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.2"
+      ],
+      "artifacts": [
+        "IERC1155MetadataURI"
+      ]
+    },
+    "C:\\Users\\vikas\\OneDrive\\Desktop\\Projects\\carbonx-tokenized-carbon-credits\\blockchain\\node_modules\\@openzeppelin\\contracts\\token\\ERC1155\\utils\\ERC1155Utils.sol": {
+      "lastModificationDate": 1771664421165,
+      "contentHash": "b4713e830ce6019bd084c28331e1cd1f",
       "sourceName": "@openzeppelin/contracts/token/ERC1155/utils/ERC1155Utils.sol",
       "solcConfig": {
         "version": "0.8.20",
@@ -543,10 +543,10 @@
         "ERC1155Utils"
       ]
     },
-    "C:\\Users\\archi\\Desktop\\carbonx-project\\blockchain\\node_modules\\@openzeppelin\\contracts\\utils\\introspection\\IERC165.sol": {
-      "lastModificationDate": 1765628992456,
-      "contentHash": "7074c93b1ea0a122063f26ddd1db1032",
-      "sourceName": "@openzeppelin/contracts/utils/introspection/IERC165.sol",
+    "C:\\Users\\vikas\\OneDrive\\Desktop\\Projects\\carbonx-tokenized-carbon-credits\\blockchain\\node_modules\\@openzeppelin\\contracts\\utils\\Comparators.sol": {
+      "lastModificationDate": 1771664421216,
+      "contentHash": "c33186d434f71d32afac8a1b8a755e06",
+      "sourceName": "@openzeppelin/contracts/utils/Comparators.sol",
       "solcConfig": {
         "version": "0.8.20",
         "settings": {
@@ -573,15 +573,15 @@
       },
       "imports": [],
       "versionPragmas": [
-        ">=0.4.16"
+        "^0.8.20"
       ],
       "artifacts": [
-        "IERC165"
+        "Comparators"
       ]
     },
-    "C:\\Users\\archi\\Desktop\\carbonx-project\\blockchain\\node_modules\\@openzeppelin\\contracts\\utils\\math\\Math.sol": {
-      "lastModificationDate": 1765628992575,
-      "contentHash": "5ec781e33d3a9ac91ffdc83d94420412",
+    "C:\\Users\\vikas\\OneDrive\\Desktop\\Projects\\carbonx-tokenized-carbon-credits\\blockchain\\node_modules\\@openzeppelin\\contracts\\utils\\math\\Math.sol": {
+      "lastModificationDate": 1771664421249,
+      "contentHash": "5b2cb16e98c54c4e3f7253aff7abed9d",
       "sourceName": "@openzeppelin/contracts/utils/math/Math.sol",
       "solcConfig": {
         "version": "0.8.20",
@@ -618,9 +618,9 @@
         "Math"
       ]
     },
-    "C:\\Users\\archi\\Desktop\\carbonx-project\\blockchain\\node_modules\\@openzeppelin\\contracts\\utils\\StorageSlot.sol": {
-      "lastModificationDate": 1765628992699,
-      "contentHash": "e656d64c4ce918f3d13030b91c935134",
+    "C:\\Users\\vikas\\OneDrive\\Desktop\\Projects\\carbonx-tokenized-carbon-credits\\blockchain\\node_modules\\@openzeppelin\\contracts\\utils\\StorageSlot.sol": {
+      "lastModificationDate": 1771664421232,
+      "contentHash": "c6edb541dfe1cc6e1604dae14d0c57aa",
       "sourceName": "@openzeppelin/contracts/utils/StorageSlot.sol",
       "solcConfig": {
         "version": "0.8.20",
@@ -654,45 +654,9 @@
         "StorageSlot"
       ]
     },
-    "C:\\Users\\archi\\Desktop\\carbonx-project\\blockchain\\node_modules\\@openzeppelin\\contracts\\utils\\Comparators.sol": {
-      "lastModificationDate": 1765628991970,
-      "contentHash": "0e57405a6f979853cbfeb0df3546c3a3",
-      "sourceName": "@openzeppelin/contracts/utils/Comparators.sol",
-      "solcConfig": {
-        "version": "0.8.20",
-        "settings": {
-          "evmVersion": "paris",
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.20"
-      ],
-      "artifacts": [
-        "Comparators"
-      ]
-    },
-    "C:\\Users\\archi\\Desktop\\carbonx-project\\blockchain\\node_modules\\@openzeppelin\\contracts\\utils\\SlotDerivation.sol": {
-      "lastModificationDate": 1765628992696,
-      "contentHash": "43950136ee6a1761d2cbed39d16bb1e0",
+    "C:\\Users\\vikas\\OneDrive\\Desktop\\Projects\\carbonx-tokenized-carbon-credits\\blockchain\\node_modules\\@openzeppelin\\contracts\\utils\\SlotDerivation.sol": {
+      "lastModificationDate": 1771664421232,
+      "contentHash": "c48f3560517d730f507fd2a7425211be",
       "sourceName": "@openzeppelin/contracts/utils/SlotDerivation.sol",
       "solcConfig": {
         "version": "0.8.20",
@@ -726,9 +690,9 @@
         "SlotDerivation"
       ]
     },
-    "C:\\Users\\archi\\Desktop\\carbonx-project\\blockchain\\node_modules\\@openzeppelin\\contracts\\utils\\math\\SafeCast.sol": {
-      "lastModificationDate": 1765628992666,
-      "contentHash": "2adca1150f58fc6f3d1f0a0f22ee7cca",
+    "C:\\Users\\vikas\\OneDrive\\Desktop\\Projects\\carbonx-tokenized-carbon-credits\\blockchain\\node_modules\\@openzeppelin\\contracts\\utils\\math\\SafeCast.sol": {
+      "lastModificationDate": 1771664421249,
+      "contentHash": "07fca9817b35d0302b609d5bf32aac50",
       "sourceName": "@openzeppelin/contracts/utils/math/SafeCast.sol",
       "solcConfig": {
         "version": "0.8.20",
@@ -762,9 +726,9 @@
         "SafeCast"
       ]
     },
-    "C:\\Users\\archi\\Desktop\\carbonx-project\\blockchain\\node_modules\\@openzeppelin\\contracts\\utils\\Panic.sol": {
-      "lastModificationDate": 1765628992646,
-      "contentHash": "2133dc13536b4a6a98131e431fac59e1",
+    "C:\\Users\\vikas\\OneDrive\\Desktop\\Projects\\carbonx-tokenized-carbon-credits\\blockchain\\node_modules\\@openzeppelin\\contracts\\utils\\Panic.sol": {
+      "lastModificationDate": 1771664421231,
+      "contentHash": "d48fd42f5fe53f9221e19b61f6b64cac",
       "sourceName": "@openzeppelin/contracts/utils/Panic.sol",
       "solcConfig": {
         "version": "0.8.20",
@@ -798,9 +762,45 @@
         "Panic"
       ]
     },
-    "C:\\Users\\archi\\Desktop\\carbonx-project\\blockchain\\node_modules\\@openzeppelin\\contracts\\token\\ERC1155\\IERC1155Receiver.sol": {
-      "lastModificationDate": 1765628992441,
-      "contentHash": "9bb9e05bd69d13dd8c8b098ecb542e6d",
+    "C:\\Users\\vikas\\OneDrive\\Desktop\\Projects\\carbonx-tokenized-carbon-credits\\blockchain\\node_modules\\@openzeppelin\\contracts\\utils\\introspection\\IERC165.sol": {
+      "lastModificationDate": 1771664421249,
+      "contentHash": "ff4d1e14b9194d66aa102ea99c561d87",
+      "sourceName": "@openzeppelin/contracts/utils/introspection/IERC165.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.16"
+      ],
+      "artifacts": [
+        "IERC165"
+      ]
+    },
+    "C:\\Users\\vikas\\OneDrive\\Desktop\\Projects\\carbonx-tokenized-carbon-credits\\blockchain\\node_modules\\@openzeppelin\\contracts\\token\\ERC1155\\IERC1155Receiver.sol": {
+      "lastModificationDate": 1771664421165,
+      "contentHash": "2f7f2a6e31113d5b274093fa68e2c251",
       "sourceName": "@openzeppelin/contracts/token/ERC1155/IERC1155Receiver.sol",
       "solcConfig": {
         "version": "0.8.20",
@@ -836,9 +836,9 @@
         "IERC1155Receiver"
       ]
     },
-    "C:\\Users\\archi\\Desktop\\carbonx-project\\blockchain\\node_modules\\@openzeppelin\\contracts\\utils\\math\\SignedMath.sol": {
-      "lastModificationDate": 1765628992676,
-      "contentHash": "ae3528afb8bdb0a7dcfba5b115ee8074",
+    "C:\\Users\\vikas\\OneDrive\\Desktop\\Projects\\carbonx-tokenized-carbon-credits\\blockchain\\node_modules\\@openzeppelin\\contracts\\utils\\math\\SignedMath.sol": {
+      "lastModificationDate": 1771664421265,
+      "contentHash": "e5a40b88593f114ca4606065b530c54d",
       "sourceName": "@openzeppelin/contracts/utils/math/SignedMath.sol",
       "solcConfig": {
         "version": "0.8.20",
@@ -872,6 +872,879 @@
       ],
       "artifacts": [
         "SignedMath"
+      ]
+    },
+    "C:\\Users\\vikas\\OneDrive\\Desktop\\Projects\\carbonx-tokenized-carbon-credits - Copy\\vikas\\blockchain\\contracts\\CarbonCredit.sol": {
+      "lastModificationDate": 1771664409883,
+      "contentHash": "501c8a27deabd60c668354eade242b39",
+      "sourceName": "contracts/CarbonCredit.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC1155/ERC1155.sol",
+        "@openzeppelin/contracts/utils/Strings.sol",
+        "./interfaces/ICarbonCredit.sol",
+        "./libraries/CarbonStructs.sol",
+        "./roles/CarbonRoles.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "CarbonCredit"
+      ]
+    },
+    "C:\\Users\\vikas\\OneDrive\\Desktop\\Projects\\carbonx-tokenized-carbon-credits - Copy\\vikas\\blockchain\\contracts\\interfaces\\ICarbonCredit.sol": {
+      "lastModificationDate": 1771664409883,
+      "contentHash": "a931488680ed8444ff6ff7fe03e3f7fa",
+      "sourceName": "contracts/interfaces/ICarbonCredit.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "ICarbonCredit"
+      ]
+    },
+    "C:\\Users\\vikas\\OneDrive\\Desktop\\Projects\\carbonx-tokenized-carbon-credits - Copy\\vikas\\blockchain\\contracts\\libraries\\CarbonStructs.sol": {
+      "lastModificationDate": 1771664409883,
+      "contentHash": "3064238090d89ddd0b0724e43428b01c",
+      "sourceName": "contracts/libraries/CarbonStructs.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "CarbonStructs"
+      ]
+    },
+    "C:\\Users\\vikas\\OneDrive\\Desktop\\Projects\\carbonx-tokenized-carbon-credits - Copy\\vikas\\blockchain\\contracts\\roles\\CarbonRoles.sol": {
+      "lastModificationDate": 1771664409883,
+      "contentHash": "d5cf65a3f907929a9b460debb558df7a",
+      "sourceName": "contracts/roles/CarbonRoles.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/access/Ownable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "CarbonRoles"
+      ]
+    },
+    "C:\\Users\\vikas\\OneDrive\\Desktop\\Projects\\carbonx-tokenized-carbon-credits - Copy\\vikas\\blockchain\\node_modules\\@openzeppelin\\contracts\\utils\\Strings.sol": {
+      "lastModificationDate": 1771664421232,
+      "contentHash": "d7f92e06ea1a044919c407e262f80e1d",
+      "sourceName": "@openzeppelin/contracts/utils/Strings.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./math/Math.sol",
+        "./math/SafeCast.sol",
+        "./math/SignedMath.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "Strings"
+      ]
+    },
+    "C:\\Users\\vikas\\OneDrive\\Desktop\\Projects\\carbonx-tokenized-carbon-credits - Copy\\vikas\\blockchain\\node_modules\\@openzeppelin\\contracts\\token\\ERC1155\\ERC1155.sol": {
+      "lastModificationDate": 1771664421165,
+      "contentHash": "0284deec762a1f8322754ffde8814ba0",
+      "sourceName": "@openzeppelin/contracts/token/ERC1155/ERC1155.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC1155.sol",
+        "./extensions/IERC1155MetadataURI.sol",
+        "./utils/ERC1155Utils.sol",
+        "../../utils/Context.sol",
+        "../../utils/introspection/ERC165.sol",
+        "../../utils/Arrays.sol",
+        "../../interfaces/draft-IERC6093.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "ERC1155"
+      ]
+    },
+    "C:\\Users\\vikas\\OneDrive\\Desktop\\Projects\\carbonx-tokenized-carbon-credits - Copy\\vikas\\blockchain\\node_modules\\@openzeppelin\\contracts\\access\\Ownable.sol": {
+      "lastModificationDate": 1771664420873,
+      "contentHash": "f665fc4a91af3170f86727fc49cc091f",
+      "sourceName": "@openzeppelin/contracts/access/Ownable.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "Ownable"
+      ]
+    },
+    "C:\\Users\\vikas\\OneDrive\\Desktop\\Projects\\carbonx-tokenized-carbon-credits - Copy\\vikas\\blockchain\\node_modules\\@openzeppelin\\contracts\\utils\\Context.sol": {
+      "lastModificationDate": 1771664421216,
+      "contentHash": "2783b901218e982baedae531a748ed8d",
+      "sourceName": "@openzeppelin/contracts/utils/Context.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "Context"
+      ]
+    },
+    "C:\\Users\\vikas\\OneDrive\\Desktop\\Projects\\carbonx-tokenized-carbon-credits - Copy\\vikas\\blockchain\\node_modules\\@openzeppelin\\contracts\\utils\\math\\Math.sol": {
+      "lastModificationDate": 1771664421249,
+      "contentHash": "5b2cb16e98c54c4e3f7253aff7abed9d",
+      "sourceName": "@openzeppelin/contracts/utils/math/Math.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../Panic.sol",
+        "./SafeCast.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "Math"
+      ]
+    },
+    "C:\\Users\\vikas\\OneDrive\\Desktop\\Projects\\carbonx-tokenized-carbon-credits - Copy\\vikas\\blockchain\\node_modules\\@openzeppelin\\contracts\\utils\\math\\SafeCast.sol": {
+      "lastModificationDate": 1771664421249,
+      "contentHash": "07fca9817b35d0302b609d5bf32aac50",
+      "sourceName": "@openzeppelin/contracts/utils/math/SafeCast.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "SafeCast"
+      ]
+    },
+    "C:\\Users\\vikas\\OneDrive\\Desktop\\Projects\\carbonx-tokenized-carbon-credits - Copy\\vikas\\blockchain\\node_modules\\@openzeppelin\\contracts\\utils\\math\\SignedMath.sol": {
+      "lastModificationDate": 1771664421265,
+      "contentHash": "e5a40b88593f114ca4606065b530c54d",
+      "sourceName": "@openzeppelin/contracts/utils/math/SignedMath.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./SafeCast.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "SignedMath"
+      ]
+    },
+    "C:\\Users\\vikas\\OneDrive\\Desktop\\Projects\\carbonx-tokenized-carbon-credits - Copy\\vikas\\blockchain\\node_modules\\@openzeppelin\\contracts\\utils\\Panic.sol": {
+      "lastModificationDate": 1771664421231,
+      "contentHash": "d48fd42f5fe53f9221e19b61f6b64cac",
+      "sourceName": "@openzeppelin/contracts/utils/Panic.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "Panic"
+      ]
+    },
+    "C:\\Users\\vikas\\OneDrive\\Desktop\\Projects\\carbonx-tokenized-carbon-credits - Copy\\vikas\\blockchain\\node_modules\\@openzeppelin\\contracts\\utils\\Arrays.sol": {
+      "lastModificationDate": 1771664421216,
+      "contentHash": "24e704e48a5e261efcbaa9a7679bea41",
+      "sourceName": "@openzeppelin/contracts/utils/Arrays.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Comparators.sol",
+        "./SlotDerivation.sol",
+        "./StorageSlot.sol",
+        "./math/Math.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "Arrays"
+      ]
+    },
+    "C:\\Users\\vikas\\OneDrive\\Desktop\\Projects\\carbonx-tokenized-carbon-credits - Copy\\vikas\\blockchain\\node_modules\\@openzeppelin\\contracts\\interfaces\\draft-IERC6093.sol": {
+      "lastModificationDate": 1771664421148,
+      "contentHash": "74f382a9e878a0ef61ce9973df2e1c7d",
+      "sourceName": "@openzeppelin/contracts/interfaces/draft-IERC6093.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.8.4"
+      ],
+      "artifacts": [
+        "IERC1155Errors",
+        "IERC20Errors",
+        "IERC721Errors"
+      ]
+    },
+    "C:\\Users\\vikas\\OneDrive\\Desktop\\Projects\\carbonx-tokenized-carbon-credits - Copy\\vikas\\blockchain\\node_modules\\@openzeppelin\\contracts\\utils\\introspection\\ERC165.sol": {
+      "lastModificationDate": 1771664421249,
+      "contentHash": "150f1488899c7faea5e9e6fe08113c8b",
+      "sourceName": "@openzeppelin/contracts/utils/introspection/ERC165.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "ERC165"
+      ]
+    },
+    "C:\\Users\\vikas\\OneDrive\\Desktop\\Projects\\carbonx-tokenized-carbon-credits - Copy\\vikas\\blockchain\\node_modules\\@openzeppelin\\contracts\\token\\ERC1155\\IERC1155.sol": {
+      "lastModificationDate": 1771664421165,
+      "contentHash": "c25765c68d1f1628663c8f2a090632a2",
+      "sourceName": "@openzeppelin/contracts/token/ERC1155/IERC1155.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../utils/introspection/IERC165.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.2"
+      ],
+      "artifacts": [
+        "IERC1155"
+      ]
+    },
+    "C:\\Users\\vikas\\OneDrive\\Desktop\\Projects\\carbonx-tokenized-carbon-credits - Copy\\vikas\\blockchain\\node_modules\\@openzeppelin\\contracts\\token\\ERC1155\\extensions\\IERC1155MetadataURI.sol": {
+      "lastModificationDate": 1771664421165,
+      "contentHash": "36f1f1952427fab2040a0b246b434043",
+      "sourceName": "@openzeppelin/contracts/token/ERC1155/extensions/IERC1155MetadataURI.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../IERC1155.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.2"
+      ],
+      "artifacts": [
+        "IERC1155MetadataURI"
+      ]
+    },
+    "C:\\Users\\vikas\\OneDrive\\Desktop\\Projects\\carbonx-tokenized-carbon-credits - Copy\\vikas\\blockchain\\node_modules\\@openzeppelin\\contracts\\token\\ERC1155\\utils\\ERC1155Utils.sol": {
+      "lastModificationDate": 1771664421165,
+      "contentHash": "b4713e830ce6019bd084c28331e1cd1f",
+      "sourceName": "@openzeppelin/contracts/token/ERC1155/utils/ERC1155Utils.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../IERC1155Receiver.sol",
+        "../../../interfaces/draft-IERC6093.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "ERC1155Utils"
+      ]
+    },
+    "C:\\Users\\vikas\\OneDrive\\Desktop\\Projects\\carbonx-tokenized-carbon-credits - Copy\\vikas\\blockchain\\node_modules\\@openzeppelin\\contracts\\utils\\Comparators.sol": {
+      "lastModificationDate": 1771664421216,
+      "contentHash": "c33186d434f71d32afac8a1b8a755e06",
+      "sourceName": "@openzeppelin/contracts/utils/Comparators.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "Comparators"
+      ]
+    },
+    "C:\\Users\\vikas\\OneDrive\\Desktop\\Projects\\carbonx-tokenized-carbon-credits - Copy\\vikas\\blockchain\\node_modules\\@openzeppelin\\contracts\\utils\\SlotDerivation.sol": {
+      "lastModificationDate": 1771664421232,
+      "contentHash": "c48f3560517d730f507fd2a7425211be",
+      "sourceName": "@openzeppelin/contracts/utils/SlotDerivation.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "SlotDerivation"
+      ]
+    },
+    "C:\\Users\\vikas\\OneDrive\\Desktop\\Projects\\carbonx-tokenized-carbon-credits - Copy\\vikas\\blockchain\\node_modules\\@openzeppelin\\contracts\\utils\\StorageSlot.sol": {
+      "lastModificationDate": 1771664421232,
+      "contentHash": "c6edb541dfe1cc6e1604dae14d0c57aa",
+      "sourceName": "@openzeppelin/contracts/utils/StorageSlot.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "StorageSlot"
+      ]
+    },
+    "C:\\Users\\vikas\\OneDrive\\Desktop\\Projects\\carbonx-tokenized-carbon-credits - Copy\\vikas\\blockchain\\node_modules\\@openzeppelin\\contracts\\utils\\introspection\\IERC165.sol": {
+      "lastModificationDate": 1771664421249,
+      "contentHash": "ff4d1e14b9194d66aa102ea99c561d87",
+      "sourceName": "@openzeppelin/contracts/utils/introspection/IERC165.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.16"
+      ],
+      "artifacts": [
+        "IERC165"
+      ]
+    },
+    "C:\\Users\\vikas\\OneDrive\\Desktop\\Projects\\carbonx-tokenized-carbon-credits - Copy\\vikas\\blockchain\\node_modules\\@openzeppelin\\contracts\\token\\ERC1155\\IERC1155Receiver.sol": {
+      "lastModificationDate": 1771664421165,
+      "contentHash": "2f7f2a6e31113d5b274093fa68e2c251",
+      "sourceName": "@openzeppelin/contracts/token/ERC1155/IERC1155Receiver.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../utils/introspection/IERC165.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.2"
+      ],
+      "artifacts": [
+        "IERC1155Receiver"
       ]
     }
   }

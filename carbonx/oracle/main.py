@@ -1,13 +1,29 @@
 from fastapi import FastAPI, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
+
 from carbonx.oracle.schemas import (
     ProjectInput,
     VerificationResult,
+    MintInput,
+    MintResult,
 )
 from carbonx.oracle.verifier import verify_project_ai
 from carbonx.oracle.ipfs import upload_proof
-from carbonx.oracle.signer import submit_and_verify_project
+from carbonx.oracle.signer import (
+    submit_and_verify_project,
+    mint_credits_on_chain,
+)
 
 app = FastAPI(title="CarbonX Oracle")
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:5173"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 
 # -----------------------------
 # VERIFY PROJECT
@@ -77,3 +93,17 @@ def get_credits(address: str):
         "address": address,
         "credits": 1000
     }
+# -----------------------------
+# MINT CREDITS
+# -----------------------------
+@app.post("/mint", response_model=MintResult)
+def mint_credits(data: MintInput):
+    try:
+        res = mint_credits_on_chain(
+            data.project_id,
+            data.recipient,
+            data.amount
+        )
+        return MintResult(**res)
+    except Exception as e:
+        raise HTTPException(status_code=400, detail=str(e))

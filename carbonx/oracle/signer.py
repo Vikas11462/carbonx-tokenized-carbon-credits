@@ -56,9 +56,9 @@ def submit_and_verify_project(
 
     tx = contract.functions.verifyProject(
         location,
-        area,
-        co2,
-        confidence,
+        int(area),
+        int(co2),
+        int(confidence),
         proof_cid
     ).build_transaction({
         "from": account.address,
@@ -69,7 +69,7 @@ def submit_and_verify_project(
     })
 
     signed_tx = account.sign_transaction(tx)
-    tx_hash = w3.eth.send_raw_transaction(signed_tx.rawTransaction)
+    tx_hash = w3.eth.send_raw_transaction(signed_tx.raw_transaction)
 
     receipt = w3.eth.wait_for_transaction_receipt(tx_hash)
 
@@ -82,4 +82,33 @@ def submit_and_verify_project(
     return {
         "tx_hash": tx_hash.hex(),
         "project_id": int(project_id)
+    }
+
+# -------------------------------------------------
+# Mint credits to the user
+# -------------------------------------------------
+def mint_credits_on_chain(project_id: int, recipient: str, amount: int):
+    nonce = w3.eth.get_transaction_count(account.address)
+    
+    # We use the oracle account as the verifier to call mintCredits
+    tx = contract.functions.mintCredits(
+        int(project_id),
+        Web3.to_checksum_address(recipient),
+        int(amount)
+    ).build_transaction({
+        "from": account.address,
+        "nonce": nonce,
+        "gas": 300_000,
+        "gasPrice": w3.eth.gas_price,
+        "chainId": 31337
+    })
+
+    signed_tx = account.sign_transaction(tx)
+    tx_hash = w3.eth.send_raw_transaction(signed_tx.raw_transaction)
+    
+    receipt = w3.eth.wait_for_transaction_receipt(tx_hash)
+    
+    return {
+        "tx_hash": tx_hash.hex(),
+        "status": "success"
     }

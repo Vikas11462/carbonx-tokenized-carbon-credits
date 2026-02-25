@@ -15,10 +15,16 @@ async function request(endpoint, options = {}) {
   });
 
   if (!res.ok) {
-    const error = await res.json().catch(() => ({
+    const errorData = await res.json().catch(() => ({
       detail: "Unexpected server error"
     }));
-    throw new Error(error.detail || "API request failed");
+
+    // FastAPI detail can be a string or a list/object (validation errors)
+    const message = typeof errorData.detail === 'string'
+      ? errorData.detail
+      : JSON.stringify(errorData.detail);
+
+    throw new Error(message || "API request failed");
   }
 
   return res.json();
@@ -50,6 +56,16 @@ export async function reverifyProject(projectId) {
  */
 export async function getProjectStatus(projectId) {
   return request(`/project/${projectId}/status`);
+}
+
+/**
+ * Mint carbon credits to a wallet
+ */
+export async function mintCredits(payload) {
+  return request("/mint", {
+    method: "POST",
+    body: JSON.stringify(payload)
+  });
 }
 
 /**
